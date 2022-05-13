@@ -1,0 +1,34 @@
+{
+  "name": "goalsetter",
+  "version": "1.0.0",
+  "description": "Goal Setter App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukuaris/goalsetter.git"
+  },
+  "keywords": [
+    "mern",
+    "stack"
+  ],
+  "author": "Duke Yoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dukuaris/goalsetter/issues"
+  },
+  "homepage": "https://github.com/dukuaris/goalsetter#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
